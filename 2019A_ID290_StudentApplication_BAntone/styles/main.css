@@ -1,0 +1,34 @@
+body{
+    background-color: teal;
+    width: 100%
+}
+@font-face{
+    src: url('../fonts/Kurnia.ttf');
+    font-family: Zen;
+}
+#wrapper{
+    width: 1000px;
+    margin: 50px auto;
+    padding-top: 30px;
+    background-color: azure;
+}
+header{
+    width: 900px;
+    margin: 0px 50px;
+    height: 350px;
+    text-align: center;
+}
+#title{
+    color: teal;
+    font-family: Zen;
+    font-size: 150px;
+    text-align: center;
+    vertical-align: baseline;
+}
+.element {
+	text-shadow:
+		-2px -1px 0 #000,
+		2px -1px 0 #000,
+		-2px 1px 0 #000,
+		2px 1px 0 #000;
+}
